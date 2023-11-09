@@ -18,12 +18,12 @@ const HowItWorksSection = () => {
       </div>
 
       <div
-        className={`flex flex-col-reverse  lg:flex lg:${
+        className={`flex flex-col-reverse lg:flex lg:${
           i18n.language === 'Ar' ? 'flex-row-reverse text-end' : 'flex-row'
         } lg:justify-between lg:items-center`}
         id='howitworks'
       >
-        <div className='mt-20 w-full flex flex-col items-center justify-center'>
+        <div className={`mt-20 w-full flex flex-col justify-center items-center ${i18n.language === "Ar" ? "lg:items-end" : "lg:items-start"} `}>
           <div
             className={`flex flex-col gap-5 justify-center ${
               i18n.language === 'Ar' ? 'items-end' : 'items-start'

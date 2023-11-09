@@ -17,7 +17,7 @@ const Accordion = ({ faqData }) => {
             {t(faqData.number)}
           </div>
           <div
-            className="paragraph-02-semibold text-start md:text-3xl md:font-semibold md:text-start text-primary-900"
+            className={`paragraph-02-semibold ${i18n.language === "Ar" ? "text-end" : "text-start"} md:text-3xl md:font-semibold text-primary-900`}
             style={{ whiteSpace: "pre-line" }}
           >
             {t(faqData.title)}

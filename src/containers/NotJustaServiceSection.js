@@ -78,35 +78,35 @@ const NotJustaServiceSection = () => {
             <img
               src="./assets/equal/woman-1.png"
               alt="behja person"
-              className="absolute left-0 right-0 bottom-[-10px] m-auto "
+              className="absolute left-0 right-0 bottom-[-10px] m-auto h-full"
             />
           </div>
           <div className="relative w-full h-[300px] ">
             <img
               src="./assets/equal/homme-1.png"
               alt="behja person"
-              className="absolute left-0 right-0 bottom-[-10px] m-auto   "
+              className="absolute left-0 right-0 bottom-[-10px] m-auto h-full  "
             />
           </div>
           <div className="relative w-full h-[300px] ">
             <img
               src="./assets/equal/woman-2.png"
               alt="behja person"
-              className="absolute left-0 right-0 bottom-[-10px] m-auto   "
+              className="absolute left-0 right-0 bottom-[-10px] m-auto h-full  "
             />
           </div>
           <div className="relative w-full h-[300px] ">
             <img
               src="./assets/equal/homme-2.png"
               alt="behja person"
-              className="absolute left-0 right-0 bottom-[-10px] m-auto   "
+              className="absolute left-0 right-0 bottom-[-10px] m-auto h-full  "
             />
           </div>
           <div className="relative w-full h-[300px] ">
             <img
               src="./assets/equal/woman-3.png"
               alt="behja person"
-              className="absolute left-0 right-0 bottom-[-10px] m-auto   "
+              className="absolute left-0 right-0 bottom-[-10px] m-auto h-full  "
             />
           </div>
         </Slider>

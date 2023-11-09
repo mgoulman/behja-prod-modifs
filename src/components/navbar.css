@@ -1,0 +1,9 @@
+.hovered-button:hover {
+    background-color: #e9ecec; /* Change to the desired color on hover */
+  }
+
+  .nav-blurred-div {
+    backdrop-filter: blur(10px); /* Apply the blur effect */
+    background: rgba(189, 185, 185, 0.5); /* Semi-transparent background color (adjust the alpha value) */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }

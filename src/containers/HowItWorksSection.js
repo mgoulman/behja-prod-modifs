@@ -12,7 +12,7 @@ const HowItWorksSection = () => {
         <p className='heading-01-semibold text-primary-900'>
           {t('How it Works')}
         </p>
-        <p className='paragraph-02-regular text-primary-700 mt-1'>
+        <p className='paragraph-02-regular text-center text-primary-700 mt-1'>
           {t('Home ownership with Behja is a simple four step process')}
         </p>
       </div>
